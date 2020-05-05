@@ -1,0 +1,66 @@
+
+body
+{
+  overflow: hidden;
+  margin:0;
+}
+
+#scene-container
+{
+  width:100vw;
+  height:100vh;
+}
+.Anim{
+  position: absolute;
+  width:100px;
+  height:100px;
+  background-color:#c5c9a9;
+  color:red;
+  font-size:20px;
+  border-radius:60%;
+  opacity:30%;
+}
+.Anim1{
+  position: absolute;
+  margin-left:250px;
+  width:100px;
+  height:100px;
+  background-color:#c5c9a9;
+  color:red;
+  font-size:20px;
+  border-radius:50%;
+  opacity:30%;
+}
+.Anim2{
+  position: absolute;
+  margin-left:500px;
+  width:100px;
+  height:100px;
+  background-color:#c5c9a9;
+  color:red;
+  font-size:20px;
+  border-radius:50%;
+  opacity:30%;
+}
+.Anim3{
+  position: absolute;
+  margin-left:500px;
+  width:100px;
+  height:100px;
+  background-color:#c5c9a9;
+  color:red;
+  font-size:20px;
+  border-radius:50%;
+  opacity:30%;
+  text-align:center;
+  position: absolute;
+  margin-left:45vw;
+  margin-top:80vh;
+}
+.Menu
+{
+  text-align:center;
+  position: absolute;
+  margin-left:35vw;
+  margin-top:70vh;
+}

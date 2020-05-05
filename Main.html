@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="scene-container" >
+      <div class="Menu">
+        <button class="Anim" id="1" type="button" name="button" onclick="javascript:game.changeModel(this.id)">Clair</button>
+        <button class="Anim1" id="2" type="button" name="button" onclick="javascript:game.changeModel(this.id)">Jack</button>
+        <button class="Anim2" id="3" type="button" name="button" onclick="javascript:game.changeModel(this.id)">John</button>
+      </div>
+      <button class="Anim3"type="button" name="button" onclick="javascript:game.toggleAnimation()">Animation</button>
+
+      <!--our threejs scene will load in this div-->
+    </div>
+
+  </body>
+  <script type="text/javascript" src="three/three.min.js"></script>
+  <script src="three/FBXLoader.js"></script>
+  <script src="three/inflate.min.js"></script>
+  <script src="three/OrbitControls.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      const game = new Game();
+      window.game = game;//For debugging only
+    });
+  </script>
+  <script type="text/javascript" src="game.js">  </script>
+</html>
